@@ -4,8 +4,8 @@ export default function Achievements() {
   return (
     <div className="font-poppins p-16 mb-20">
       <p className="font-semibold text-xl ">ACHIEVEMENTS 😎</p>
-      <div className="flex justify-evenly mt-10">
-        <div class="relative group">
+      <div className="flex flex-wrap justify-evenly mt-10">
+        <div class="relative group mb-9 md:mb-0">
           <img
             class="size-48 drop-shadow-md rounded-xl"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRc6zXkbySLrUVieFEtD3C96EIbnjituKiNg&s"
@@ -21,7 +21,7 @@ export default function Achievements() {
         </div>
 
         <div>
-          <div class="relative group">
+          <div class="relative group mb-9 md:mb-0">
             <img
               className="size-48 drop-shadow-md rounded-xl"
               src="https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6133545ea74ee_TRBS_logo.jpeg"
@@ -39,7 +39,7 @@ export default function Achievements() {
         </div>
 
         <div>
-          <div class="relative group">
+          <div class="relative group mb-9 md:mb-0">
             <img
               className="size-48 drop-shadow-md rounded-xl"
               src="https://media.licdn.com/dms/image/C560BAQHciTwKdcCUpg/company-logo_200_200/0/1631353255109?e=2147483647&v=beta&t=qC-hjuRVL2iuhplt9YpF7OMpOX9NdcnZUWpOTfGcqtY"

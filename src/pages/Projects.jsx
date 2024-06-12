@@ -50,7 +50,7 @@ const projects = [
 ];
 export default function Projects() {
   return (
-    <div className="grid grid-cols-3  font-poppins my-20 mx-14 gap-4">
+    <div className="grid md:grid-cols-3 grid-cols-1  font-poppins md:my-20 mb-20 my-8 md:mx-14 mx-4 gap-4">
       {projects.map((item) => {
         return (
           <Link to={item.link} target="_blank">

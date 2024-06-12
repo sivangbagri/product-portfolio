@@ -7,7 +7,7 @@ import Achievements from "../components/Achievements";
 export default function Home() {
   return (
     <>
-    <div className="mx-14">
+    <div className="md:mx-14 mx-4">
    
       <Hero/>
       <Skills/>

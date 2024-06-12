@@ -4,11 +4,11 @@ import hero from "../static/hero3.png";
 export default function Footer() {
   return (
     <>
-      <div className="bg-[#030712]  h-auto font-normal text-sm text-white mx-14 font-poppins  p-24  bottom-0">
-        <div className="flex justify-between ">
-          <div className="w-1/2">
-            <p className="text-4xl font-semibold">Shivang Bagri</p>
-            <p className="text-lg mt-1 text-para font-medium">
+      <div className="bg-[#030712] font-normal text-sm text-white md:mx-14 font-poppins md:p-24 p-5  bottom-0">
+        <div className="md:grid flex flex-wrap md:grid-cols-3 ">
+          <div className="">
+            <p className=" text-2xl md:text-4xl font-semibold">Shivang Bagri</p>
+            <p className="text-lg  mt-1 text-para font-medium">
               Aspiring Product Manager
             </p>
             <p className="text-lg mt-1 text-para font-medium">
@@ -16,7 +16,7 @@ export default function Footer() {
             </p>
           </div>
           <img src={hero} className="size-80" />
-          <div className="w-1/2 ">
+          <div className="">
             <p className="text-3xl font-semibold">Lets Connect ! </p>
             <p className="text-lg mt-2 text-para font-medium">
               I am always open to connect with people in tech, learn more about

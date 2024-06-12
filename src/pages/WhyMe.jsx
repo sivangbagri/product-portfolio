@@ -27,9 +27,9 @@ const reasons = [
 
 export default function WhyMe() {
   return (
-    <div className="mx-14 bg-custom-hover  p-16 font-poppins mt-5 ">
-      <div className="text-5xl font-semibold text-center">
-        Why to choose <span className="text-custom-text ml-2"> me?</span>
+    <div className="md:mx-14 mx-4 bg-custom-hover  md:p-16 p-5 font-poppins mt-5 ">
+      <div className="text-5xl font-semibold md:text-center">
+        Why to choose <span className="text-custom-text ml-2"> me? </span>🤔
       </div>
 
       <div className=" rounded-md p-3 border-2 my-7 transition duration-300 ease-in-out hover:border-[#009ACC] cursor-pointer">
@@ -40,7 +40,7 @@ export default function WhyMe() {
           </p>
         </div>
         <div className=" mt-3 text-[#3f3f46] transition-all duration-300">
-          <p>
+          <p className="hidden md:block">
             Product Intern at Kolkata based funded startup{" "}
             <span className=" font-semibold "> flutrr</span> (a dating platform)
             where I worked closely on improving the
@@ -56,7 +56,17 @@ export default function WhyMe() {
             <span className="font-semibold">UI/UX </span>
             enhancements.
           </p>
-          <p className="mt-4">
+          <p className="block md:hidden">
+            Product Intern at Kolkata based funded startup{" "}
+            <span className=" font-semibold "> flutrr</span> (a dating platform)
+            where I worked closely on improving the
+            <span className="font-semibold">
+              {" "}
+              user engagement and monetization metrics{" "}
+            </span>
+            for Flutrr.
+          </p>
+          <p className="mt-4 hidden md:block">
             SEO Consultant at{" "}
             <span className="font-semibold">Samson Consulting </span>, a
             cosulting firm. Executed a
@@ -77,6 +87,24 @@ export default function WhyMe() {
             and integrated{" "}
             <span className="font-semibold">open graph tags </span>for Facebook,
             Twitter, and LinkedIn to enhance social media visibility
+          </p>
+          <p className="mt-4 block md:hidden">
+            SEO Consultant at{" "}
+            <span className="font-semibold">Samson Consulting </span>, a
+            cosulting firm. Executed a
+            <span className="font-semibold">
+              {" "}
+              comprehensive SEO upliftement plan
+            </span>{" "}
+            for{" "}
+            <span className="text-blue-500 italic">
+              {" "}
+              samsonconsultant.com
+            </span>{" "}
+            and
+            <span className="text-blue-500 italic"> samsonlms.com</span>,
+            resulting in a remarkable enhancement of the
+            <span className="font-semibold"> SEO score by 60% </span>.
           </p>
         </div>
       </div>
@@ -126,13 +154,13 @@ export default function WhyMe() {
         <div className="text-xl font-semibold">
           <p className="mb-4">🤩 Bonus ( PoW )</p>
         </div>
-        <div className=" grid grid-cols-3">
-          <img src={img1} className="transform -rotate-90   size-80" />
-          <img src={img2} className=" size-80 -rotate-90 " />
-          <img src={img3} className=" size-80  -rotate-90 " />
-          <img src={img4} className=" size-80 " />
-          <img src={img5} className=" size-80 " />
-          <img src={img6} className=" size-80 " />
+        <div className=" grid md:grid-cols-3 grid-cols-1 ">
+          <img src={img1} className="transform -rotate-90   md:size-80 size-72 " />
+          <img src={img2} className=" md:size-80 size-72 -rotate-90 " />
+          <img src={img3} className=" md:size-80 size-72  -rotate-90 " />
+          <img src={img4} className=" md:size-80 size-72 " />
+          <img src={img5} className=" md:size-80 size-72 " />
+          <img src={img6} className=" md:size-80 size-72 " />
         </div>
       </div>
     </div>

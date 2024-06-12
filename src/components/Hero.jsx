@@ -3,17 +3,17 @@ import hero from "../static/hero2.png";
 import {Link} from "react-router-dom"
 export default function Hero() {
   return (
-    <div className="flex bg-custom-hover justify-between p-16 font-poppins mt-5">
+    <div className="flex flex-wrap bg-custom-hover justify-between md:p-16 p-5 font-poppins mt-5">
       <div>
         <div>
-          <p className="text-8xl font-semibold "> Ready to </p>
-          <p className="text-8xl font-semibold text-custom-text ">
+          <p className="md:text-8xl text-5xl font-semibold "> Ready to </p>
+          <p className="md:text-8xl text-5xl font-semibold text-custom-text ">
             {" "}
             Build.{" "}
           </p>
         </div>
-        <div className="w-96 my-4 text-para">
-          <p>
+        <div className="md:w-96 w-80 my-4 text-para">
+          <p className="">
             An undergrad from IIT-BHU passionate about user experience and crafting amazing products.
             {" "}
             Always ready for the next big challenge—bring it on ! ✨
@@ -28,7 +28,7 @@ export default function Hero() {
         </div>
       </div>
       <div>
-        <img src={hero} className="w-[400px] h-[600px] " />
+        <img src={hero} className="md:w-[400px] md:h-[600px] mt-5 md:mt-0 " />
       </div>
     </div>
   );

@@ -10,13 +10,13 @@ export default function Card({ logo, title, content, type, date, tags }) {
       >
         <div>
           <img
-            className={`${type === "big" ? `w-full h-56 rounded-sm` : `size-36`}`}
+            className={`${type === "big" ? `w-full h-56 md:rounded-sm rounded-lg` : `size-36`}`}
             src={logo}
           />
         </div>
         <div className="">
           <p className={`my-2 font-semibold ${type === "big" ? `text-lg`:`text-2xl`}`}>{title}</p>
-          <div className="flex text-xs gap-2 text-white">{tags && tags.map((ele) =>
+          <div className="flex flex-wrap  text-xs gap-2 text-white">{tags && tags.map((ele) =>
               <p key={ele} className="flex bg-[#7dd3fc] p-2 rounded-md font-light h-7 items-center text-xs" > {ele} </p>
           
           )}</div>

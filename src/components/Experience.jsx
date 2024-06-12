@@ -8,8 +8,8 @@ import "react-vertical-timeline-component/style.min.css";
 import Icon from "./Icon";
 export default function Experience() {
   return (
-    <div className="flex bg-[#EDE4FF] justify-between p-16 font-poppins my-20">
-      <div className="w-1/3">
+    <div className="md:flex  bg-[#EDE4FF] justify-between md:p-16 p-5 font-poppins md:my-20 my-4">
+      <div className="md:w-1/3">
         <p className="font-semibold text-xl ">MY EXPERIENCE 👨‍💻</p>
       </div>
       <div>
