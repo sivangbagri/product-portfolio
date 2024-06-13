@@ -14,9 +14,8 @@ export default function Skills() {
       <div className="flex flex-wrap  bg-[#ecfeff] md:justify-between justify-center md:p-16 p-5  font-poppins my-20">
         <div className="md:w-1/3">
           <p className="font-semibold text-xl ">MY SKILLS ⚙️</p>
-          <div className="my-6"></div>
           <div className="">
-            <p className="leading-loose text-para">
+            <p className="md:leading-loose text-para mt-3">
               I am still exploring the field of Product Management and am always
               eager to learn from every experience and project. Reading about
               user psychology and behavioral patterns excites me 🔥.
