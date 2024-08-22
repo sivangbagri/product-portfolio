@@ -7,8 +7,12 @@ import { VscGithub } from "react-icons/vsc";
 export default function Navbar() {
   const navlinks = [
     { name: "Home", link: "/" },
-    { name: "Projects", link: "/projects" },
     { name: "Why Me ? ", link: "/why-me" },
+
+    {
+      name: "Articles",
+      link: "https://www.linkedin.com/in/shivang-bagri/recent-activity/articles/",
+    },
 
     { name: "Contact", link: "/contact" },
   ];
@@ -19,7 +23,7 @@ export default function Navbar() {
           <Link to="/">
             {" "}
             <img
-              src="https://media.licdn.com/dms/image/D4D03AQGrP-xRycARIw/profile-displayphoto-shrink_800_800/0/1699360407028?e=1723075200&v=beta&t=Ro-NpUuxEkEx7SLiPS_8YHj2zDn74wFTif5xj3c2RRM"
+              src="https://media.licdn.com/dms/image/v2/D4D03AQGrP-xRycARIw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1699360407028?e=1729728000&v=beta&t=I6RjGMueHlye0V-ljifHz9TVwsxKHTw6FUt9BQfGRw0"
               className="size-12 border-2 rounded-full"
             />
           </Link>
