@@ -23,7 +23,7 @@ export default function Navbar() {
           <Link to="/">
             {" "}
             <img
-              src="https://media.licdn.com/dms/image/v2/D4D03AQGrP-xRycARIw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1699360407028?e=1729728000&v=beta&t=I6RjGMueHlye0V-ljifHz9TVwsxKHTw6FUt9BQfGRw0"
+              src="https://media.licdn.com/dms/image/v2/D4D03AQGrP-xRycARIw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1699360407028?e=1736380800&v=beta&t=alx-2xpLDEgQNz38RykVbYgaKqHJigw-CVZnVyN8V-4"
               className="size-12 border-2 rounded-full"
             />
           </Link>
